@@ -1,0 +1,44 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage(ContinuousDownload)
+        {
+            steps
+            {
+                git 'https://github.com/Sirigireddyvinod2408/maven.git'
+            }
+        }
+        stage(ContinuousBuild)
+        {
+            steps
+            {
+                sh 'mvn package'
+            }
+        }
+        stage(ContinuousDeploy)
+        {
+            steps
+            {
+                deploy adapters: [tomcat9(credentialsId: '78501be8-aa43-4020-a3a1-8cc4a6f5615a', path: '', url: 'http://13.57.194.186:8080')], contextPath: 'testapp', war: '**/*.war'
+            }
+        }
+        stage(ContinuousTesting)
+        {
+            steps
+            {
+                git 'https://github.com/Sirigireddyvinod2408/FunctionalTesting.git'
+                sh 'java -jar /var/lib/jenkins/workspace/DeclarativePipeline-withpostconditions1/testing.jar'
+                
+            }
+        }
+        stage(ContinuousDelivery)
+        {
+            steps
+            {
+               deploy adapters: [tomcat9(credentialsId: '45d42aa3-5189-4192-be21-0745ec9b00b6', path: '', url: 'http://3.101.90.58:8080')], contextPath: 'prodapp', war: '**/*.war' 
+            }
+        }
+    }
+}
