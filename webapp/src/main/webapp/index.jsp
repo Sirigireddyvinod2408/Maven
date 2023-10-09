@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome To IntelliQ IT</h1>
+<h1>Welcome To My Official Site</h1>
 </body>
 <body style="color:red;">
  <div class="container">
