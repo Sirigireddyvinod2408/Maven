@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome To My Official Site</h1>
+<h1>Welcome To Vinod Kumar Reddy Official Site</h1>
 </body>
 <body style="color:red;">
  <div class="container">
@@ -14,7 +14,7 @@
 <style>
 h1
 {
-  color:blue;
+  color:Red;
   text-align:center;
 }
 h5
