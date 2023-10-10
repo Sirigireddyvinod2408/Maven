@@ -1,0 +1,27 @@
+@Library('mylib')_
+node('built-in')
+{
+    stage('ContinuousDownload')
+    {
+        cicd.gitDownload("maven")   
+    }
+    stage('ContinuousBuild')
+    {
+       cicd.mavenBuild()
+    }
+    stage('ContinuousDeployment')
+    {
+        cicd.tomcatDeploy("ScriptedPipeline-WithSharedLibrary","172.31.16.17","mytestapp")
+    }
+    stage('ContinuousTesting')
+    {
+        cicd.gitDownload("FunctionalTesting")
+        cicd.executeSelenium("ScriptedPipeline-WithSharedLibrary")
+        
+    }
+    stage('ContinuousDelivery')
+    {
+        cicd.tomcatDeploy("ScriptedPipeline-WithSharedLibrary","172.31.29.239","myprodapp")
+    }
+}
+
