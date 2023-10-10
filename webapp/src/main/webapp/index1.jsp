@@ -4,11 +4,11 @@
   </div>
 
   <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Clientname" name="uname" required>
+    <label for="uname"><b>Employeename</b></label>
+    <input type="text" placeholder="Enter Employee name" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>Employeename</b></label>
+    <input type="password" placeholder="Enter Employee Id" name="psw" required>
 
     <button type="submit">Signin</button>
     <label>
@@ -16,7 +16,7 @@
     </label>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="container" style="background-color:#ADD8E6">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
