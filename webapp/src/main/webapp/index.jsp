@@ -4,17 +4,17 @@
 </body>
 <body style="color:blue;">
  <div class="container">
-    <label for="uname"><b>Employeename:    </b></label>
-    <input type="text" placeholder="Enter Employeename" name="uname" required>
+    <label for="uname"><b>Employee name:    </b></label>
+    <input type="text" placeholder="Enter Employee name" name="uname" required>
 <br></br>
-    <label for="psw"><b>EmployeeId:     </b></label>
-    <input type="password" placeholder="Enter EmployeeId" name="psw" required>
+    <label for="psw"><b>Employee Id:     </b></label>
+    <input type="password" placeholder="Enter Employee Id" name="psw" required>
 <br></br>
    <button type="submit">Signin</button>
 <style>
 h1
 {
-  color:Blue;
+  color:Red;
   text-align:center;
 }
 h5
