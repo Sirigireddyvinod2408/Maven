@@ -1,20 +1,20 @@
 <html>
 <body>
-<h1>Welcome To My Official Site</h1>
+<h1>Welcome To Vinod Kumar Reddy Official Site</h1>
 </body>
-<body style="color:red;">
+<body style="color:blue;">
  <div class="container">
-    <label for="uname"><b>Username:    </b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="uname"><b>Employeename:    </b></label>
+    <input type="text" placeholder="Enter Employeename" name="uname" required>
 <br></br>
-    <label for="psw"><b>Password:     </b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>EmployeeId:     </b></label>
+    <input type="password" placeholder="Enter EmployeeId" name="psw" required>
 <br></br>
-   <button type="submit">Login</button>
+   <button type="submit">Signin</button>
 <style>
 h1
 {
-  color:blue;
+  color:Blue;
   text-align:center;
 }
 h5
