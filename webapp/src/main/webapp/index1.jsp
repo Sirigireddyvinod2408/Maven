@@ -7,7 +7,7 @@
     <label for="uname"><b>Employeename</b></label>
     <input type="text" placeholder="Enter Employee name" name="uname" required>
 
-    <label for="psw"><b>Employeename</b></label>
+    <label for="psw"><b>Employee name</b></label>
     <input type="password" placeholder="Enter Employee Id" name="psw" required>
 
     <button type="submit">Signin</button>
@@ -16,7 +16,7 @@
     </label>
   </div>
 
-  <div class="container" style="background-color:#ADD8E6">
+  <div class="container" style="background-color:#90EE90">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
