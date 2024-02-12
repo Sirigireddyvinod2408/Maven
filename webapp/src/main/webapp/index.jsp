@@ -10,7 +10,7 @@
     <label for="psw"><b>Employee Id:     </b></label>
     <input type="password" placeholder="Enter Employee Id" name="psw" required>
 <br></br>
-   <button type="submit">Signin</button>
+   <button type="submit">Submit</button>
 <style>
 h1
 {
