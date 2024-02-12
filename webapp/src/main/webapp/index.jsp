@@ -2,7 +2,7 @@
 <body>
 <h1>Welcome To Vinod Kumar Reddy Official Site</h1>
 </body>
-<body style="color:blue;">
+<body style="color:Red;">
  <div class="container">
     <label for="uname"><b>Employee name:    </b></label>
     <input type="text" placeholder="Enter Employee name" name="uname" required>
