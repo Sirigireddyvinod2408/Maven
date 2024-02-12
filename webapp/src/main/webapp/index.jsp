@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome To Vinod Kumar Reddy Officials Site</h1>
+<h1>Welcome To Vinod Kumar Reddy Official Site</h1>
 </body>
 <body style="color:blue;">
  <div class="container">
