@@ -4,11 +4,11 @@
   </div>
 
   <div class="container">
-    <label for="uname"><b>Employeename</b></label>
-    <input type="text" placeholder="Enter Employee name" name="uname" required>
+    <label for="sname"><b>Subscribername</b></label>
+    <input type="text" placeholder="Enter Subscriber name" name="sname" required>
 
-    <label for="psw"><b>Employee name</b></label>
-    <input type="password" placeholder="Enter Employee Id" name="psw" required>
+    <label for="psw"><b>Subscriber name</b></label>
+    <input type="password" placeholder="Enter Subscriber Id" name="psw" required>
 
     <button type="submit">Signin</button>
     <label>
