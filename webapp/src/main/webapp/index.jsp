@@ -50,7 +50,7 @@
       <input type="text" placeholder="Enter User name" name="sname" required><br><br>
       <label for="psw"><b>Password:</b></label><br>
       <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-      <button type="submit">Sign in</button>
+      <button type="submit">Login</button>
     </form>
   </div>
 </body>
