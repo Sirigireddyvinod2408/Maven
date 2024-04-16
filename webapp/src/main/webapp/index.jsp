@@ -43,7 +43,7 @@
   </style>
 </head>
 <body>
-  <h1>Welcome To NavyaVinodvlogs Official Website</h1>
+  <h1>Welcome To NavyaVinodvlogs Official Website </h1>
   <div class="container">
     <form>
       <label for="sname"><b>User name:</b></label><br>
