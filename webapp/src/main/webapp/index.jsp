@@ -15,11 +15,11 @@
       padding: 0;
     }
     .container {
-      text-align: center;
+      text-align: left;
       margin-top: 100px;
     }
     h1 {
-      color: blue; /* Adjust heading color */
+      color: red; /* Adjust heading color */
       text-align: center;
     }
     label {
@@ -46,10 +46,10 @@
   <h1>Welcome To NavyaVinodvlogs Official Website</h1>
   <div class="container">
     <form>
-      <label for="sname"><b>Subscriber name:</b></label><br>
-      <input type="text" placeholder="Enter Subscriber name" name="sname" required><br><br>
-      <label for="psw"><b>Subscriber Id:</b></label><br>
-      <input type="password" placeholder="Enter Subscriber Id" name="psw" required><br><br>
+      <label for="sname"><b>User name:</b></label><br>
+      <input type="text" placeholder="Enter User name" name="sname" required><br><br>
+      <label for="psw"><b>Password:</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
       <button type="submit">Sign in</button>
     </form>
   </div>
