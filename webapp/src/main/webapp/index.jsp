@@ -15,11 +15,11 @@
       padding: 0;
     }
     .container {
-      text-align:    left;
+      text-align: left;
       margin-top: 100px;
     }
     h1 {
-      color: red; /* Adjust heading color */
+      color: white; /* Adjust heading color */
       text-align: center;
     }
     label {
