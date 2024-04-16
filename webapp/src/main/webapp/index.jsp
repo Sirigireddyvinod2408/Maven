@@ -6,7 +6,7 @@
   <title>Welcome To NavyaVinodvlogs Official Website</title>
   <style>
     body {
-      background-image: url('https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg');
+      background-image: url('https://wallpapers.com/images/featured/youtube-background-34ycn949dz42yg4c.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       color: white; /* Adjust text color */
