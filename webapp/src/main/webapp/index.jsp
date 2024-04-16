@@ -9,7 +9,7 @@
       background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/YouTube_social_white_square_%282017%29.svg/1200px-YouTube_social_white_square_%282017%29.svg.png');
       background-repeat: no-repeat;
       background-size: cover;
-      color: red; /* Adjust text color */
+      color: white; /* Adjust text color */
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
