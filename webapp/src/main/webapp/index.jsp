@@ -8,7 +8,7 @@
     body {
       background-image: url('https://yt3.googleusercontent.com/BV2ZnvlifoysXlI5030oflQYyZHHWygyO-zz73WylRlfkBK80CP5FFFs8rtzUEYAWF5tIGzs=s900-c-k-c0x00ffffff-no-rj');
       background-repeat: no-repeat;
-      background-size: 1200px 900px;
+      background-size: 1300px 800px;
       color: white; /* Adjust text color */
       font-family: Arial, sans-serif;
       margin: 0;
