@@ -43,6 +43,7 @@
   </style>
 </head>
 <body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSel-40mphuJGWRpyPNm7U6WJhf9EP4lT_CuIJkZ1D_NkAH-r-gfTQDdz-b_A&s" alt="Logo" class="logo">
   <h1>Welcome To NavyaVinodvlogs Official Website </h1>
   <div class="container">
     <form>
