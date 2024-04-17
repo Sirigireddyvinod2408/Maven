@@ -15,7 +15,7 @@
       padding: 0;
     }
     .container {
-      text-align: left;
+      text-align: center;
       margin-top: 100px;
     }
     h1 {
