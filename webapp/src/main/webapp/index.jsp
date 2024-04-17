@@ -21,8 +21,7 @@
     h1 {
       color: white; /* Adjust heading color */
       text-align: center;
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSel-40mphuJGWRpyPNm7U6WJhf9EP4lT_CuIJkZ1D_NkAH-r-gfTQDdz-b_A&s" alt="Logo" class="logo">
-      text-align; right;
+      text-align: right;
     }
     label {
       font-weight: bold;
@@ -46,6 +45,7 @@
 </head>
 <body>
   <h1>Welcome To NavyaVinodvlogs Official Website </h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSel-40mphuJGWRpyPNm7U6WJhf9EP4lT_CuIJkZ1D_NkAH-r-gfTQDdz-b_A&s" alt="Logo" class="logo">
   <div class="container">
     <form>
       <label for="sname"><b>User name:</b></label><br>
