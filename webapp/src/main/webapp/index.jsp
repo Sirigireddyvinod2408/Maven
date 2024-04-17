@@ -6,7 +6,7 @@
   <title>Welcome To NavyaVinodvlogs Official Website</title>
   <style>
     body {
-      background-image: url('https://yt3.googleusercontent.com/BV2ZnvlifoysXlI5030oflQYyZHHWygyO-zz73WylRlfkBK80CP5FFFs8rtzUEYAWF5tIGzs=s900-c-k-c0x00ffffff-no-rj');
+      background-image: url('https://img.freepik.com/premium-photo/youtube-icon-high-quality-youtube-icon-paster-color_289054-46.jpg');
       background-repeat: no-repeat;
       background-size: 1400px 650px; /* center  */
       color: white; /* Adjust text color */
