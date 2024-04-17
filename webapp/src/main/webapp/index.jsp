@@ -23,7 +23,7 @@
       text-align: center;
     }
     h2 {
-          text-align: right;
+          text-align: center;
   }
 
     label {
