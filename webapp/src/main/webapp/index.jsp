@@ -23,7 +23,7 @@
       text-align: center;
     }
     h2 {
-          text-align: float: right;
+          text-align:  bottomright;
   }
 
     label {
