@@ -1,26 +1,43 @@
-node('built-in')
+pipeline
 {
-    stage('ContinuousDownload')
+    agent any
+    stages
     {
-        git 'https://github.com/Sirigireddyvinod2408/maven.git'   
-    }
-    stage('ContinuousBuild')
-    {
-       sh 'mvn package' 
-    }
-    stage('ContinuousDeployment')
-    {
-        deploy adapters: [tomcat9(credentialsId: '78501be8-aa43-4020-a3a1-8cc4a6f5615a', path: '', url: 'http://172.31.16.17:8080')], contextPath: 'testapp1', war: '**/*.war'
-        
-    }
-    stage('ContinuousTesting')
-    {
-        git 'https://github.com/Sirigireddyvinod2408/FunctionalTesting.git'
-        sh 'java -jar /var/lib/jenkins/workspace/ScriptedPipeline1/testing.jar'
-        
-    }
-    stage('ContinuousDelivery')
-    {
-        deploy adapters: [tomcat9(credentialsId: '45d42aa3-5189-4192-be21-0745ec9b00b6', path: '', url: 'http://172.31.29.239:8080')], contextPath: 'prodapp1', war: '**/*.war'
+        stage('Cont Download')
+        {
+            steps
+            {
+               git 'https://github.com/Sirigireddyvinod2408/maven.git' 
+            }
+        }
+        stage('Cont Build')
+        {
+            steps
+            {
+                sh 'mvn package'
+            }
+        }
+        stage('Cont Deploy')
+        {
+            steps
+            {
+                deploy adapters: [tomcat9(credentialsId: '06683349-5840-401c-a23e-9e177563e128', path: '', url: 'http://172.31.28.201:8080')], contextPath: 'testapplication', war: '**/*.war'
+            }
+        }
+        stage('Cont Test')
+        {
+            steps
+            {
+                git 'https://github.com/Sirigireddyvinod2408/FunctionalTesting.git'
+                sh 'java -jar /var/lib/jenkins/workspace/DeclarativePipeline_PollSCM/testing.jar'
+            }
+        }
+        stage('Cont Delivery')
+        {
+            steps
+            {
+                deploy adapters: [tomcat9(credentialsId: '06683349-5840-401c-a23e-9e177563e128', path: '', url: 'http://172.31.19.67:8080')], contextPath: 'productionapplication', war: '**/*.war'
+            }
+        }
     }
 }
